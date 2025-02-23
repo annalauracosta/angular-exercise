@@ -3,47 +3,47 @@
     {
       "id": "1",
       "description": "Caminhar",
-      "situation": false
+      "situation": true
     },
     {
       "id": "2",
       "description": "Andar de Bicicleta",
-      "situation": false
+      "situation": true
     },
     {
       "id": "3",
       "description": "Corrida Matinal",
-      "situation": false
+      "situation": true
     },
     {
       "id": "4",
       "description": "Lavar carro",
-      "situation": false
+      "situation": true
     },
     {
       "id": "5",
       "description": "Limpar Casa",
-      "situation": false
+      "situation": true
     },
     {
       "id": "6",
       "description": "Fazer o Almoço",
-      "situation": false
+      "situation": true
     },
     {
       "id": "7",
       "description": "Ler 20 páginas",
-      "situation": false
+      "situation": true
     },
     {
       "id": "ac7f",
       "description": "Correr",
-      "situation": false
+      "situation": true
     },
     {
       "id": "13f0",
       "description": "BANANA COND",
-      "situation": false
+      "situation": true
     }
   ]
 }
