@@ -1,0 +1,49 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "description": "Caminhar",
+      "situation": false
+    },
+    {
+      "id": "2",
+      "description": "Andar de Bicicleta",
+      "situation": false
+    },
+    {
+      "id": "3",
+      "description": "Corrida Matinal",
+      "situation": false
+    },
+    {
+      "id": "4",
+      "description": "Lavar carro",
+      "situation": false
+    },
+    {
+      "id": "5",
+      "description": "Limpar Casa",
+      "situation": false
+    },
+    {
+      "id": "6",
+      "description": "Fazer o Almoço",
+      "situation": false
+    },
+    {
+      "id": "7",
+      "description": "Ler 20 páginas",
+      "situation": false
+    },
+    {
+      "id": "ac7f",
+      "description": "Correr",
+      "situation": false
+    },
+    {
+      "id": "13f0",
+      "description": "BANANA COND",
+      "situation": false
+    }
+  ]
+}

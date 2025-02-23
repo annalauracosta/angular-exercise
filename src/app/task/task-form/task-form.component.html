@@ -1,0 +1,23 @@
+<div>
+  <mat-card>
+    <mat-card-header>Registrar Tarefa</mat-card-header>
+    <mat-form-field>
+      <mat-label>Descrição</mat-label>
+      <input
+        matInput
+        placeholder="digite a descrição"
+        [(ngModel)]="description"
+        name="description"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Status</mat-label>
+      <mat-select [(ngModel)]="situation">
+        <mat-option *ngFor="let option of options" [value]="option">
+          {{ option ? "Completa" : "Pendente" }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <button mat-button color="warn" (click)="createTask()">Registrar</button>
+  </mat-card>
+</div>
