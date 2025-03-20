@@ -26,6 +26,17 @@ export class TaskListComponent {
       this.buttonHeader = true;
     }
   }
+  deleteTask(task: Task): void {
+    this.taskService.deleteTask(task.id.toString()).subscribe({
+      next: (data: any) => {
+        this.allTasks();
+        console.log('Task succesfully deleted');
+      },
+      error: (err) => {
+        console.error(err);
+      },
+    });
+  }
 
   allTasks(): void {
     this.taskService.findAllTasks().subscribe({

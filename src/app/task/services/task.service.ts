@@ -20,6 +20,9 @@ export class TaskService {
   uncompleteTask(idTask: string): Observable<any> {
     return this.http.patch(`${this.apiURL}/${idTask}`, { situation: false });
   }
+  deleteTask(idTask: string): Observable<any> {
+    return this.http.delete(`${this.apiURL}/${idTask}`);
+  }
   createTask(newTask: any): Observable<any> {
     const taskNoId: any = {
       description: newTask.description,
