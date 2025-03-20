@@ -8,7 +8,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { TaskListComponent } from './task-list/task-list.component';
 import { MatTableModule } from '@angular/material/table';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [TaskFormComponent, TaskListComponent],
@@ -21,6 +21,7 @@ import { FormsModule } from '@angular/forms';
     MatSelectModule,
     MatTableModule,
     FormsModule,
+    ReactiveFormsModule,
   ],
   exports: [TaskListComponent],
 })

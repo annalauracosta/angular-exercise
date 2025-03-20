@@ -6,10 +6,6 @@ import { TaskListComponent } from './task/task-list/task-list.component';
 
 const routes: Routes = [
   {
-    path: '',
-    component: ToolNavigatorComponent,
-  },
-  {
     path: 'task-create',
     component: TaskFormComponent,
   },

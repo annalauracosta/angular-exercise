@@ -1,4 +1,4 @@
-<div>
+<div [formGroup]="formGroup">
   <mat-card>
     <mat-card-header>Registrar Tarefa</mat-card-header>
     <mat-form-field>
@@ -6,13 +6,13 @@
       <input
         matInput
         placeholder="digite a descrição"
-        [(ngModel)]="description"
+        formControlName="description"
         name="description"
       />
     </mat-form-field>
     <mat-form-field>
       <mat-label>Status</mat-label>
-      <mat-select [(ngModel)]="situation">
+      <mat-select formControlName="situation">
         <mat-option *ngFor="let option of options" [value]="option">
           {{ option ? "Completa" : "Pendente" }}
         </mat-option>
