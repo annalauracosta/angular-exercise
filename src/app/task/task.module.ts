@@ -9,7 +9,9 @@ import { MatSelectModule } from '@angular/material/select';
 import { TaskListComponent } from './task-list/task-list.component';
 import { MatTableModule } from '@angular/material/table';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { MatIconModule } from '@angular/material/icon';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 @NgModule({
   declarations: [TaskFormComponent, TaskListComponent],
   imports: [
@@ -22,6 +24,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatTableModule,
     FormsModule,
     ReactiveFormsModule,
+    MatIconModule,
+    MatRadioModule,
+    MatSnackBarModule,
   ],
   exports: [TaskListComponent],
 })

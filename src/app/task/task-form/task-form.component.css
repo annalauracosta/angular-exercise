@@ -22,3 +22,17 @@ mat-card-header{
   font-size: 26px;
   margin-bottom: 12px;
 }
+
+.error {
+  border: 1px solid red;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+}
+
+.error-snackbar {
+  background-color: red;
+  color: white;
+}

@@ -27,6 +27,7 @@ export class TaskService {
     const taskNoId: any = {
       description: newTask.description,
       situation: newTask.situation,
+      category: newTask.category,
     };
     return this.http.post<any>(this.apiURL, taskNoId);
   }

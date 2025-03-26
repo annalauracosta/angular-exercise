@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Task } from './../../models/task';
 import { TaskService } from './../services/task.service';
 import { Component } from '@angular/core';
@@ -11,10 +12,19 @@ export class TaskListComponent {
   taskList: Task[] = [];
   listVisibility: boolean = true;
   buttonHeader: boolean = true;
-  displayedColumns: string[] = ['id', 'description', 'situation', 'Action'];
-  constructor(private taskService: TaskService) {}
+  displayedColumns: string[] = [
+    'id',
+    'description',
+    'situation',
+    'Action',
+    'Category',
+  ];
+  constructor(private taskService: TaskService, private router: Router) {}
   ngOnInit(): void {
     this.allTasks();
+  }
+  register(): void {
+    this.router.navigate(['/task-create']);
   }
 
   showList(): void {
@@ -42,6 +52,7 @@ export class TaskListComponent {
     this.taskService.findAllTasks().subscribe({
       next: (data: Task[]) => {
         this.taskList = data;
+        console.log(this.taskList);
       },
       error: (err) => {
         console.log('ERROR.');
