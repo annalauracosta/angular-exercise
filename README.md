@@ -1,31 +1,68 @@
-<<<<<<< HEAD
-# angular-exercise
-=======
-# MyFirst
+📌 Angular Exercise - Gerenciador de Tarefas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.9.
+Bem-vindo ao Angular Exercise! Este projeto foi desenvolvido para praticar conceitos do Angular 17, utilizando a arquitetura Standalone Components e Módulos.
 
-## Development server
+🛠️ Pré-requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Antes de rodar o projeto, certifique-se de ter instalado em seu computador:
 
-## Code scaffolding
+Node.js (versão recomendada: 18 ou superior)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Angular CLI (versão 17):
 
-## Build
+npm install -g @angular/cli@17
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+JSON Server (para simular uma API REST):
 
-## Running unit tests
+npm install -g json-server
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+🚀 Como rodar o projeto
 
-## Running end-to-end tests
+1️⃣ Clone o repositório:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+git clone https://github.com/GabrielRogerioMessias/angular-exercise.git
 
-## Further help
+2️⃣ Acesse a pasta do projeto:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
->>>>>>> master
+cd angular-exercise
+
+3️⃣ Instale as dependências:
+
+npm install
+
+4️⃣ Inicie a aplicação Angular:
+
+ng serve
+
+5️⃣ Inicie o servidor JSON (banco de dados fake):
+Abra outro terminal, navegue até a pasta src/db e execute:
+
+json-server --watch db.json
+
+Agora o servidor estará rodando e pronto para armazenar suas tarefas! ✅
+
+✨ Funcionalidades
+
+✅ Listar todas as tarefas cadastradas✅ Criar novas tarefas✅ Utilização de Snackbar para feedback ao usuário✅ Validação de formulários para garantir que os campos obrigatórios sejam preenchidos✅ Implementação de Botões, Toolbar, Inputs, Model e Service
+
+📂 Estrutura do Projeto
+
+angular-exercise/
+│── src/
+│ ├── app/
+│ │ ├── components/
+│ │ ├── models/
+│ │ ├── services/
+│ │ ├── app.component.ts
+│ │ ├── app.module.ts
+│ ├── db/
+│ │ ├── db.json (base de dados fake)
+│ ├── index.html
+│ ├── main.ts
+│── package.json
+│── angular.json
+│── README.md
+
+📝 Observações
+
+Este é um projeto simples, com o objetivo principal de aprender e praticar o uso do Angular utilizando Standalone Components e Módulos. Caso tenha alguma dúvida ou queira contribuir, fique à vontade! 😃

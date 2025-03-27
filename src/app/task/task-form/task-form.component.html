@@ -21,9 +21,7 @@
         {{ item }}
       </mat-radio-button>
     </mat-radio-group>
-    <p class="error-text" *ngIf="formGroup.get('category')?.invalid">
-      Campo obrigatório!
-    </p>
+
     <mat-form-field [class.error]="formGroup.get('situation')?.invalid">
       <mat-label>Status</mat-label>
       <mat-select formControlName="situation" required>
