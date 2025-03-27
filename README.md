@@ -1,68 +1,80 @@
-📌 Angular Exercise - Gerenciador de Tarefas
+# 📌 Angular Exercise - Task Manager
 
-Bem-vindo ao Angular Exercise! Este projeto foi desenvolvido para praticar conceitos do Angular 17, utilizando a arquitetura Standalone Components e Módulos.
+Welcome to **Angular Exercise**! This project was developed to practice Angular 17 concepts using **Standalone Components** and **Modules**.
 
-🛠️ Pré-requisitos
+## 🛠️ Prerequisites
+Before running the project, make sure you have installed:
+- **Node.js** (recommended version: 18 or higher)
+- **Angular CLI** (version 17):
+  ```bash
+  npm install -g @angular/cli@17
+  ```
+- **JSON Server** (to simulate a REST API):
+  ```bash
+  npm install -g json-server
+  ```
 
-Antes de rodar o projeto, certifique-se de ter instalado em seu computador:
+## 🚀 How to Run the Project
 
-Node.js (versão recomendada: 18 ou superior)
-
-Angular CLI (versão 17):
-
-npm install -g @angular/cli@17
-
-JSON Server (para simular uma API REST):
-
-npm install -g json-server
-
-🚀 Como rodar o projeto
-
-1️⃣ Clone o repositório:
-
+1️⃣ **Clone the repository:**
+```bash
 git clone https://github.com/GabrielRogerioMessias/angular-exercise.git
+```
 
-2️⃣ Acesse a pasta do projeto:
-
+2️⃣ **Navigate to the project folder:**
+```bash
 cd angular-exercise
+```
 
-3️⃣ Instale as dependências:
-
+3️⃣ **Install dependencies:**
+```bash
 npm install
+```
 
-4️⃣ Inicie a aplicação Angular:
-
+4️⃣ **Start the Angular application:**
+```bash
 ng serve
+```
 
-5️⃣ Inicie o servidor JSON (banco de dados fake):
-Abra outro terminal, navegue até a pasta src/db e execute:
-
+5️⃣ **Start the JSON server (fake database):**
+Open another terminal, navigate to the `src/db` folder, and run:
+```bash
 json-server --watch db.json
+```
 
-Agora o servidor estará rodando e pronto para armazenar suas tarefas! ✅
+Now, the server will be running and ready to store your tasks! ✅
 
-✨ Funcionalidades
+## ✨ Features
+✅ List all registered tasks  
+✅ Create new tasks  
+✅ Use of **Snackbar** to provide user feedback  
+✅ **Form validation** to ensure required fields are filled  
+✅ Implementation of **Buttons, Toolbar, Inputs, Model, and Service**  
 
-✅ Listar todas as tarefas cadastradas✅ Criar novas tarefas✅ Utilização de Snackbar para feedback ao usuário✅ Validação de formulários para garantir que os campos obrigatórios sejam preenchidos✅ Implementação de Botões, Toolbar, Inputs, Model e Service
+⚠ **Validation Message:** If required fields are not filled when creating a new task, a Snackbar warning will appear stating: **"Please fill in all required fields before proceeding!"**
 
-📂 Estrutura do Projeto
-
+## 📂 Project Structure
+```
 angular-exercise/
 │── src/
-│ ├── app/
-│ │ ├── components/
-│ │ ├── models/
-│ │ ├── services/
-│ │ ├── app.component.ts
-│ │ ├── app.module.ts
-│ ├── db/
-│ │ ├── db.json (base de dados fake)
-│ ├── index.html
-│ ├── main.ts
+│   ├── app/
+│   │   ├── components/
+│   │   ├── models/
+│   │   ├── services/
+│   │   ├── app.component.ts
+│   │   ├── app.module.ts
+│   ├── db/
+│   │   ├── db.json (fake database)
+│   ├── index.html
+│   ├── main.ts
 │── package.json
 │── angular.json
 │── README.md
+```
 
-📝 Observações
+## 📝 Notes
+This is a simple project, mainly aimed at **learning and practicing Angular** using Standalone Components and Modules. Feel free to contribute or ask questions! 😃
 
-Este é um projeto simples, com o objetivo principal de aprender e praticar o uso do Angular utilizando Standalone Components e Módulos. Caso tenha alguma dúvida ou queira contribuir, fique à vontade! 😃
+---
+🔗 **Created by:** [Gabriel Rogério Messias](https://github.com/GabrielRogerioMessias)
+
