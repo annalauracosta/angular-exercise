@@ -51,4 +51,30 @@ Agora, o servidor estará rodando e pronto para armazenar suas tarefas! ✅
 ✅ **Validação de formulário** para garantir que os campos obrigatórios sejam preenchidos  
 ✅ Implementação de **Botões, Toolbar, Inputs, Model e Service**  
 
-⚠ **Mensagem de Valida
+⚠ **Mensagem de Validação:** Caso os campos obrigatórios não sejam preenchidos ao criar uma nova tarefa, uma mensagem de aviso no Snackbar será exibida: **"Por favor, preencha todos os campos obrigatórios antes de continuar!"**
+
+## 📂 Estrutura do Projeto
+```
+angular-exercise/
+│── src/
+│   ├── app/
+│   │   ├── components/
+│   │   ├── models/
+│   │   ├── services/
+│   │   ├── app.component.ts
+│   │   ├── app.module.ts
+│   ├── db/
+│   │   ├── db.json (banco de dados fake)
+│   ├── index.html
+│   ├── main.ts
+│── package.json
+│── angular.json
+│── README.md
+```
+
+## 📝 Notas
+Este é um projeto simples, com foco principal em **aprender e praticar Angular** usando Componentes Standalone e Módulos. Fique à vontade para contribuir ou tirar dúvidas! 😃
+
+---
+🔗 **Criado por:** [Gabriel Rogério Messias](https://github.com/GabrielRogerioMessias)
+
