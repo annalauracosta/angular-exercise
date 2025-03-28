@@ -76,5 +76,5 @@ angular-exercise/
 Este é um projeto simples, com foco principal em **aprender e praticar Angular** usando Componentes Standalone e Módulos. Fique à vontade para contribuir ou tirar dúvidas! 😃
 
 ---
-🔗 **Criado por:** [Gabriel Rogério Messias](https://github.com/GabrielRogerioMessias)
+🔗 **Criado por:** [Gabriel Rogério Messias](https://github.com/GabrielRogerioMessias) e [Anna Laura da Costa Polo] 
 
